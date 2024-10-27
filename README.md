@@ -4,6 +4,13 @@ This project is a 3D graphics engine implemented in Rust. It uses the `minifb` l
 
 ## Video demo of my ship:
 
+
+https://github.com/user-attachments/assets/67314490-ae58-4bab-b947-10086008e4ea
+
+
+
+
+
 ## Features
 
 - **OBJ Model Loading**: Load and render 3D models in the OBJ format.
