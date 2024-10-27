@@ -149,14 +149,14 @@ fn main() {
 
     let mut framebuffer = Framebuffer::new(framebuffer_width, framebuffer_height);
     let mut window = Window::new(
-        "Rust Graphics - Renderer Example",
+        "Lab 3 - Gráficas por Computadora",
         window_width,
         window_height,
         WindowOptions::default(),
     )
     .unwrap();
 
-    window.set_position(500, 500);
+    window.set_position(0, 0);
     window.update();
 
     framebuffer.set_background_color(0x333355);
@@ -168,8 +168,8 @@ fn main() {
 
     // camera parameters
     let mut camera = Camera::new(
+        Vec3::new(0.0, 0.0, 10.0),
         Vec3::new(0.0, 0.0, 5.0),
-        Vec3::new(0.0, 0.0, 0.0),
         Vec3::new(0.0, 1.0, 0.0),
     );
 
